@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <table border="2" cellspacing="10" cellpadding="10">
+
+        <thead>
+            <tr>
+                <th>Periods/Days</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">Maths</td>
+                <td rowspan="3">eco</td>
+                <td>physics</td>
+                <td>chemistry</td>
+                <td rowspan="4">html</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <!-- <td>Maths</td> -->
+                <!-- <td>eco</td> -->
+                <td>physicd</td>
+                <td>chemistry</td>
+                <!-- <td>html</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <!-- <td>maths</td> -->
+                <!-- <td>eco</td> -->
+                <td colspan="2">physics</td>
+                <!-- <td>physics</td> -->
+                <!-- <td>html</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>eco</td>
+                <td>Maths</td>
+                <td colspan="2">chemistry</td>
+                <!-- <td>chemistry</td> -->
+                <!-- <td>html</td> -->
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Maths</td>
+                <td>eco</td>
+                <td>physics</td>
+                <td>html</td>
+                <td>chemistry</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="6">time table for 10th standard</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
