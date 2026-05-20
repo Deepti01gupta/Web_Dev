@@ -1,5 +1,18 @@
 
+// OPERATORS:
 
+// 1. Arithmetic Operators: +, -, *, /, %, **
+
+// 2. Assignment Operators: =, +=, -=, *=, /=, %=
+
+// 3. Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+
+// 4. Logical Operators: &&, ||, !
+
+// 5. Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+
+// 6. Ternary Operator: condition ? expression1 : expression2
+  
 let ans=10;
 
 // if(ans>=5){
