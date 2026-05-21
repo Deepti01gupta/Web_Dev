@@ -29,7 +29,7 @@
 
 // arr=[10,20,30,40,50,60];
 // console.log(arr); // [10, 20, 30, 40, 50, 60]
-// console.log(arr.splice(2,5,'sam','deepti','om')); // [30, 40, 50, 60], because it removes 5 elements from index 2, so it removes index 2, index 3, index 4, index 5 and index 6 (which does not exist, so it just removes index 2, index 3, index 4 and index 5), and it adds 'sam', 'deepti' and 'om' at index 2
+// console.log(arr.splice(2,2,'sam','deepti','om')); // [30, 40, 50, 60], because it removes 2 elements from index 2, so it removes index 2 and index 3, and it adds 'sam', 'deepti' and 'om' at index 2
 // console.log(arr); // [10, 20, 'sam', 'deepti', 'om'], because splice modifies the original array
 
 
@@ -79,7 +79,7 @@
 
 // 7. reverse is a destructive method, which means it modifies the original array, it reverses the order of the elements in the array and returns the reversed array
 
-let arr=[10,20,30];
-console.log(arr);
-console.log(arr.reverse()); // [30, 20, 10], because it reverses the order of the elements in the array
-console.log(arr); // [30, 20, 10], because reverse modifies the original array
+// let arr=[10,20,30];
+// console.log(arr);
+// console.log(arr.reverse()); // [30, 20, 10], because it reverses the order of the elements in the array
+// console.log(arr); // [30, 20, 10], because reverse modifies the original array
