@@ -21,9 +21,7 @@ fun();
 
 
 // question: How are function run behind the scenes in JavaScript?
-
-
-
+// ANSWER:
 // whenever a js code is run a GE (Global Execution Context) is created and the code is executed line by line. 
 // Whenever a function is called, a new execution context is created for that function and the code inside 
 // the function is executed. Once the function execution is completed, the execution context is destroyed 
@@ -37,8 +35,6 @@ fun();
 // CEP is the phase where the code is executed line by line. In this phase, the values of variables are assigned 
 // and the functions are executed. When a function is called, a new execution context is created for that function 
 // and the code inside
-
-// When code is executed successfully, the execution context is destroyed and the control is returned to the global execution context.
 
 // Callstack: Call stack is a data structure that is used to keep track of the execution context. It is a stack data structure 
 // that follows the Last In First Out (LIFO) principle. Whenever a function is called, a new execution context is created and 

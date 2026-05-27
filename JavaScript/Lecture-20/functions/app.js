@@ -74,7 +74,8 @@
 
 
 
-// default parameterised function
+// default parameterised function : default parameter is a parameter that is assigned a default value when the function is called without providing a value for that parameter.
+
 // function sam3(num1, num2=50){ // num2 is assigned a default value of 50
 //     console.log(num1);
 //     console.log(num2);
@@ -83,5 +84,3 @@
 // console.log(sam3(100)); // 100, 50, undefined: undefined, because the function does not return anything, it only logs the parameters to the console
 
 
-
-   

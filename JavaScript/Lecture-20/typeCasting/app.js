@@ -1,5 +1,10 @@
 
 
+// Type Casting in JavaScript
+// Type casting is the process of converting a value from one type to another. 
+// In JavaScript, there are two types of type casting: 
+// implicit type casting and explicit type casting.
+
 function sum1(num1, num2){
     return num1+num2;
 }
@@ -17,3 +22,6 @@ console.log(typeof(ans2));  // number
 let ans3=sum2(30,false); 
 console.log(ans3); // 30
 console.log(typeof(ans3));  // number
+let ans4=sum2(10);
+console.log(ans4); // 10undefined
+console.log(typeof(ans4)); // string
