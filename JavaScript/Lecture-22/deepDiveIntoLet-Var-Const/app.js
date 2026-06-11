@@ -1,5 +1,5 @@
 
-
+ 
 // {...} are called block and it creates a new scope
 // var is function scoped and let and const are block scoped
 
