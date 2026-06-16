@@ -26,6 +26,8 @@
 // dender __proto__ is used to access the prototype of an object.
 // syntax: object.__proto__
 
+// what is the prototype of an object?
+// The prototype of an object is the object from which it inherits properties and methods.
 
 let todo={
     title:'buy flowers',
