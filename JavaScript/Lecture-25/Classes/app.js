@@ -42,11 +42,11 @@ class Person{
     }
 }
 let person2=new Person("John", "Doe", "john.doe@example.com");
-console.log(person2);
-console.log(person2.email);
-console.log(person2.printName());
-console.log(person2.getName());
-console.log(person2.__proto__);
+console.log(person2); // Person {firstName: 'John', lastName: 'Doe', email: 'john.doe@example.com'}
+console.log(person2.email); // john.doe@example.com
+console.log(person2.printName()); // my name is John Doe
+console.log(person2.getName()); // John Doe
+console.log(person2.__proto__); // Person {printName: ƒ, getName: ƒ, constructor: ƒ}
 
 
 
@@ -75,9 +75,9 @@ class Student extends Person{
     }
 }
 let student1=new Student("radhe", "krishna", "radhekrishna@example.com", 1);
-console.log(student1);
-console.log(student1.email);
-console.log(student1.printName());
-console.log(student1.getName());
-console.log(student1.groupNo);
-console.log(student1.__proto__);
+console.log(student1); // Student {firstName: 'radhe', lastName: 'krishna', email: 'radhekrishna@example.com', groupNo: 1}
+console.log(student1.email); // radhekrishna@example.com
+console.log(student1.printName()); // my name is radhe krishna
+console.log(student1.getName()); // Student name is radhe krishna
+console.log(student1.groupNo); // 1
+console.log(student1.__proto__); // Student {getName: ƒ, constructor: ƒ}

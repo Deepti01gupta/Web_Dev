@@ -16,6 +16,7 @@
 
 
 // 2. method invocation:
+// in this case "this" will point to the object that is calling the method.
 
 // let obj = {
 //     number:2,
@@ -66,6 +67,14 @@
 // call(): jab bhi tum call() method ka istemal kr rhe hote ho tab jo app call ke ander 
 // mention krte ho apka this usse point krta hai.
 
+// apply(): it allows us to call a function with a specified "this" value and arguments 
+// provided as an array (or an array-like object).
+
+// bind(): it creates a new function that, when called, has its "this" keyword set to the 
+// provided value, with a given sequence of arguments preceding any provided when the new 
+// function is called.
+
+
 // let obj={
 //     a:20,
 //     fn:function(a,b,c){
@@ -79,8 +88,8 @@
 //     name:"deepti"
 // }
 
-// // obj.fn(); // {a: 20, fn: ƒ}
-// // obj2.fn(); // TypeError: obj2.fn is not a function
+// obj.fn(); // {a: 20, fn: ƒ}
+// obj2.fn(); // TypeError: obj2.fn is not a function
 
 // obj.fn.call(obj2); // {a: 50} - call method allows us to call a function with a specified "this" value and arguments provided individually.
 
@@ -106,6 +115,8 @@
 
 
 // 5. arrow function invocation:
+// arrow functions do not have their own "this" context. Instead, they inherit 
+// "this" from the surrounding (lexical) scope at the time they are defined.
 
 // let x = fn(()=>{
 //     console.log(this);
