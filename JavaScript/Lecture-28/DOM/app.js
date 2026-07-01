@@ -13,11 +13,9 @@
 // .style() method is used to change the style of an element. 
 // It can be used to change the color, font size, background color, etc. of an element.
 
-
-
-
-
 // console.log(document)
+
+
 
 // -------------------TAGNAME-------------------
 
@@ -90,16 +88,6 @@
 // let sam=document.querySelector("#sam");
 // console.log(sam);  // h2#sam
 
-
-
-// ---------------------QUERYSELECTORALL-------------------
-
-// let h1=document.querySelector('h1');
-// console.log(h1);  // h1
-
-
-// let dom=document.querySelector(".dom");
-// console.log(dom);  // p.dom
 
 
  

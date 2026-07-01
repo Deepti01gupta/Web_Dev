@@ -34,8 +34,6 @@
 
 
 
-
-
 // ---------------------SET INTERVAL-------------------
 // repeatedly call a function or execute a code snippet, with a fixed time delay between each call.
 // accepts two parameters: the function to be executed and the time interval in milliseconds.
