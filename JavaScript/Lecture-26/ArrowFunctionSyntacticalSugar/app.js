@@ -1,6 +1,5 @@
 
-// arrow function
-
+// -------------------- arrow function -----------------------
 
 // let ans1 = squareRoot(5);
 // let ans2 = squareRoot(7);
@@ -13,11 +12,8 @@
 // let squareRoot = a =>{ //if one argument is provided then you can remove parenthesis
 //     return a * a
 // }
-
-
 // let ans = squareRoot(6);
 // console.log(ans);
-
 
 
 

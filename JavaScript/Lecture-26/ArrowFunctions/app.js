@@ -7,12 +7,11 @@
 // console.log(variablee);
 
 
-// arrow func
+// arrow func  
 
 // let fun = ()=>{
 //     console.log(100);
 // }
-
 // fun();
 
 

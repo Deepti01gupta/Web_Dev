@@ -1,8 +1,5 @@
 
 
-
-
-
 // let obj = {
 //     num: 3 , 
 //     fn: function(){
